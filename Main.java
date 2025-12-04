@@ -4,8 +4,9 @@ public class Main {
 
         String[] fruits = { "Mango", "Banana", "Orange", "Apple", "Grapes" };
 
-        // add sorting logic here
-        java.util.Arrays.sort(fruits);
+        // add sorting logic here, quick sort algorithm
+        quickSort(fruits, 0, fruits.length - 1);
+
         for (String fruit : fruits) {
             System.out.println(fruit);
         }
